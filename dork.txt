@@ -417,3 +417,13 @@ intitle:"Index of" ".htpasswd" htpasswd.bak
 intitle:"Index of..etc" passwd
 intitle:index.of passwd passwd.bak
 intitle:index.of mt-db-pass.cgi
+"DefaultPassword" ext:reg "[HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindows NTCurrentVersionWinlogon]"
+"spring.datasource.password=" + "spring.datasource.username=" ext:properties -git -gitlab
+jdbc:mysql://localhost:3306/ + username + password ext:yml | ext:java -git -gitlab
+ext:log password END_FILE
+inurl:set_config_password.html
+site:pastebin.com intext:admin.password
+"db.username" + "db.password" ext:properties
+"CREATE ROLE" + "ENCRYPTED PASSWORD" ext:sql | ext:txt | ext:ini -git -gitlab
+ext:cfg "g_password" | "sv_privatepassword" | "rcon_password" -git -gitlab
+"server.cfg" ext:cfg intext:"rcon_password" -git -gitlab
