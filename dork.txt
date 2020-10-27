@@ -449,3 +449,4 @@ filetype: ldb admin
 inurl: search / admin.php
 inurl: password.log filetype:log
 filetype: reg HKEY_CURRENT_USER username
+filetype:env “DB_PASSWORD”
