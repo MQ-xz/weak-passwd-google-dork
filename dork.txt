@@ -427,3 +427,25 @@ site:pastebin.com intext:admin.password
 "CREATE ROLE" + "ENCRYPTED PASSWORD" ext:sql | ext:txt | ext:ini -git -gitlab
 ext:cfg "g_password" | "sv_privatepassword" | "rcon_password" -git -gitlab
 "server.cfg" ext:cfg intext:"rcon_password" -git -gitlab
+"Login: *" "password =*" filetype: xls
+allinurl: auth_user_file.txt
+filetype: xls inurl: "password.xls"
+intitle: login password
+intitle: "Index of" master.passwd
+index of / backup
+intitle: index.of people.lst
+intitle: index.of passwd.bak
+intitle: "Index of" pwd.db
+intitle: "Index of .. etc" passwd
+index.of passlist.txt
+index.of.secret
+filetype: xls username password email
+"# PhpMyAdmin MySQL-Dump" filetype: txt
+inurl: ipsec.secrets-history-bugs
+inurl: ipsec.conf-intitle: manpage
+inurl: "wvdial.conf" intext: "password"
+inurl: "user.xls" intext: "password"
+filetype: ldb admin
+inurl: search / admin.php
+inurl: password.log filetype:log
+filetype: reg HKEY_CURRENT_USER username
