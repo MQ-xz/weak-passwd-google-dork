@@ -702,6 +702,9 @@ intitle:dupics inurl:(add.asp | default.asp | view.asp | voting.asp) -site:duwar
 inurl:pap-secrets -cvs
 inurl:chap-secrets -cvs
 filetype:ini inurl:flashFXP.ini
+site:*.atlassian.net
+site:libraries.io
+site:npm.runkit.com “Company Name”
 filetype:mdb wwforum
 "Powered By Elite Forum Version *.*"
 "index of/"" ""ws_ftp.ini"" ""parent directory
@@ -763,3 +766,22 @@ intitle:index.of people.lst
 "intitle:""Index of"" spwd.db passwd -pam.conf
 intitle:index.of config.php
 "intitle:""Index of..etc"" passwd"
+site:coggle.it “Company Name” 
+site: "target.com" "php"
+Intitle:index.of api
+site: "target.com" ext:php
+site:target.com "php"
+site:target.com ext:php
+target.com filetype:WSDL
+site:target.com filetype:wsdl
+site:target.com ext:svc inurl:wsdl
+site:target.com filetype:wdsl wdsl
+site:target.com filetype:?wsdl
+site:target.com inurl:asmx?wsdl
+site:target.com inurl:jws?wsdl
+site:target.com inurl:_vti_bin/sites.asmx?wsdl | intitle:_vtl_bin/sites.asmx?wsdl
+site:target.com filetype:php
+site:target.com filetype:aspx
+site:target.com filetype:swf
+site:target.com filetype:wsdl
+site:target.com intext:"index of /"
