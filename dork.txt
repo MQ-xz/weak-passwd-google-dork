@@ -785,3 +785,26 @@ site:target.com filetype:aspx
 site:target.com filetype:swf
 site:target.com filetype:wsdl
 site:target.com intext:"index of /"
+site: "target.com" "php"
+Intitle:index.of api
+site: "target.com" ext:php
+site:target.com "php"
+site:target.com ext:php
+target.com filetype:WSDL
+site:target.com filetype:wsdl
+site:target.com ext:svc inurl:wsdl
+site:target.com filetype:wdsl wdsl
+site:target.com filetype:?wsdl
+site:target.com inurl:asmx?wsdl
+site:target.com inurl:jws?wsdl
+site:target.com inurl:_vti_bin/sites.asmx?wsdl | intitle:_vtl_bin/sites.asmx?wsdl
+site:target.com filetype:php
+site:target.com filetype:aspx
+site:target.com filetype:swf
+site:target.com filetype:wsdl
+site:target.com intext:"index of /"
+site:target.com filetype:txt
+site:target.com filetype:php.txt
+site:target.com ext:txt
+"site:target.com inurl:%2F" 
+"site:target.com inurl:%3a"
