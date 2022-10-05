@@ -1,11 +1,4 @@
-#!/usr/bin/python
-# This was written for educational purpose and pentest only. Use it at your own risk.
-# Author will be not responsible for any damage!
-# Toolname        : pegasus-dorker.py
-# Coder           : Muhammad Sobri Maulana - Pegasus
-# Version         : 1.0
-# Cybersecuritydown.or.id
-#
+
 
 import string, sys, time, urllib2, cookielib, re, random, threading, socket, os, subprocess
 from random import choice
