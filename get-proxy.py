@@ -48,7 +48,9 @@ class find_http_proxy:
         letushide_list = self.letushide_resp()
         gatherproxy_list = self.gatherproxy_resp()
         checkerproxy_list = self.checkerproxy_resp()
-
+    def proxy(self):
+            print("trest")
+            
         self.proxy_list.append(letushide_list)
         self.proxy_list.append(gatherproxy_list)
         self.proxy_list.append(checkerproxy_list)
