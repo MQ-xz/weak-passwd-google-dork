@@ -617,6 +617,7 @@ site:pastebin.com intext:@gmail.com | @yahoo.com | @hotmail.com daterange:245738
 "intext:@pwcache ""parent directory"
 site:pastebin.com intext:Username
 "ext:csv intext:""password
+intext upload  inurl upload site
 "ext:sql intext:""alter user"" intext:""identified by"
 "inurl:""security/xamppdirpasswd.txt
 inurl:yahoo_site_admin/credentials/
@@ -734,6 +735,7 @@ filetype:dat wand.dat
 filetype:ini ws_ftp pwd
 filetype:inc dbconn
 signin filetype:url
+
 "inurl:""slapd.conf"" intext:""credentials"" -manpage -""Manual Page"" -man: -sample
 "inurl:""slapd.conf"" intext:""rootpw"" -manpage -""Manual Page"" -man: -sample"
 "inurl:""wvdial.conf"" intext:""password
