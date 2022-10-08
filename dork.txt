@@ -763,3 +763,18 @@ intitle:index.of people.lst
 "intitle:""Index of"" spwd.db passwd -pam.conf
 intitle:index.of config.php
 "intitle:""Index of..etc"" passwd"
+intitle:"Index of" htpasswd	
+intitle:"Index of" pwd.db
+site:rentry.co intext:"password"	
+site:pastebin.com "admin password"
+site:controlc.com intext:"password"	
+site:pastebin.com "password"
+site:pastebin.com intext:pass.txt	
+intext:"Index of" intext:"password.zip"
+intext:"index of" "uploads"	
+intext:"password" | "passwd" | "pwd" site:ghostbin.com
+site:pastebin.com intext:password.txt	
+intext:"/pfx-password.txt" "[To Parent Directory]"
+site:pastebin.com intext:username | password | SECRET_KEY	
+inurl:/wp-content/uploads/ ext:txt "username" | "user name" | "uname" | "user" | "userid" | "user id" AND "password" | "pass word" | "pwd" | "pw"
+inurl:password site:shodan.io	
