@@ -1,28 +1,28 @@
 filetype:htpasswd htpasswd
-intitle:"Index of” “.htpasswd” -intitle:"dist” -apache -htpasswd.c
+intitle:"Index of" ".htpasswd" -intitle:"dist" -apache -htpasswd.c
 index.of.private (algo privado)
 intitle:index.of master.passwd
 inurlasslist.txt
-intitle:"Index of..etc” passwd
+intitle:"Index of..etc" passwd
 intitle:admin intitle:login
-“Incorrect syntax near” (SQL script error)
-intitle:"the page cannot be found” inetmgr
+"Incorrect syntax near" (SQL script error)
+intitle:"the page cannot be found" inetmgr
 intitle:index.of ws_ftp.ini
-“Supplied arguments is not a valid PostgreSQL result” (possible debilidad SQL)
+"Supplied arguments is not a valid PostgreSQL result" (possible debilidad SQL)
 _vti_pvt password intitle:index.of (Frontpage)
 inurl:backup intitle:index.of inurl:admin
-“Index of /backup”
+"Index of /backup"
 index.of.password
 index.of.winnt
-inurl:"auth_user_file.txt”
-“Index of /admin”
-“Index of /password”
-“Index of /mail”
-“Index of /” +passwd
-Index of /” +.htaccess
+inurl:"auth_user_file.txt"
+"Index of /admin"
+"Index of /password"
+"Index of /mail"
+"Index of /" +passwd
+Index of /" +.htaccess
 Index of ftp +.mdb allinurl:/cgi-bin/ +mailto
-allintitle: “index of/admin”
-allintitle: “index of/root”
+allintitle: "index of/admin"
+allintitle: "index of/root"
 allintitle: sensitive filetype:doc
 allintitle: restricted filetype :mail
 allintitle: restricted filetype:doc site:gov
@@ -34,20 +34,20 @@ gobal.asax index
 inurlasswd filetype:txt
 inurl:admin filetype:db
 inurl:iisadmin
-inurl:"wwwroot/*.”
+inurl:"wwwroot/*."
 allinurl: winnt/system32/ (get cmd.exe)
 allinurl:/bash_history
-intitle:"Index of” .sh_history
-intitle:"Index of” .bash_history
-intitle:"Index of” passwd
-intitle:"Index of” people.1st
-intitle:"Index of” pwd.db
-intitle:"Index of” etc/shadow
-intitle:"Index of” spwd
-intitle:"Index of” master.passwd
-intitle:"Index of” htpasswd
-intitle:"Index of” members OR accounts
-intitle:"Index of” user_carts OR user _cart.
+intitle:"Index of" .sh_history
+intitle:"Index of" .bash_history
+intitle:"Index of" passwd
+intitle:"Index of" people.1st
+intitle:"Index of" pwd.db
+intitle:"Index of" etc/shadow
+intitle:"Index of" spwd
+intitle:"Index of" master.passwd
+intitle:"Index of" htpasswd
+intitle:"Index of" members OR accounts
+intitle:"Index of" user_carts OR user _cart.
 "admin_password" ext:txt | ext:log | ext:cfg
 "index of" "password.ini"
 filetype:log intext:password after:2015 intext:@gmail.com | @yahoo.com | @hotmail.com
@@ -414,7 +414,6 @@ index.of passlist
 intitle:"Index of" ".htpasswd" "htgroup" -intitle:"dist" -apache -htpasswd.c
 intitle:"Index of" spwd.db passwd -pam.conf
 intitle:"Index of" ".htpasswd" htpasswd.bak
-intitle:"Index of..etc" passwd
 intitle:index.of passwd passwd.bak
 intitle:index.of mt-db-pass.cgi
 "DefaultPassword" ext:reg "[HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindows NTCurrentVersionWinlogon]"
@@ -449,7 +448,6 @@ filetype: ldb admin
 inurl: search / admin.php
 inurl: password.log filetype:log
 filetype: reg HKEY_CURRENT_USER username
-filetype:env “DB_PASSWORD”
 "index of /"" +passwd
 "intitle: ""Index of ftp passwords"
 "Inurl: ""login"" Intitle:index of username and pass
@@ -617,6 +615,7 @@ site:pastebin.com intext:@gmail.com | @yahoo.com | @hotmail.com daterange:245738
 "intext:@pwcache ""parent directory"
 site:pastebin.com intext:Username
 "ext:csv intext:""password
+intext upload  inurl upload site
 "ext:sql intext:""alter user"" intext:""identified by"
 "inurl:""security/xamppdirpasswd.txt
 inurl:yahoo_site_admin/credentials/
@@ -656,7 +655,7 @@ inurl:web/frontend_dev.php -trunk
 "ext:php intext:""$dbms""$dbhost""$dbuser""$dbpasswd""$table_prefix""phpbb_installed"
 "inurl:""calendarscript/users.txt
 "filetype:sql ""insert into"" (pass|passwd|password)"
-filetype:reg reg +intext:ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂWINVNC3ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â
+filetype:reg reg +intext:ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂWINVNC3ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â
 "ext:asa | ext:bak intext:uid intext:pwd -""uid..pwd"" database | server | dsn"
 "enable password | secret ""current configuration"" -intext:the
 "inurl:""editor/list.asp"" | inurl:""database_editor.asp"" | inurl:""login.asa"" ""are set
@@ -702,6 +701,9 @@ intitle:dupics inurl:(add.asp | default.asp | view.asp | voting.asp) -site:duwar
 inurl:pap-secrets -cvs
 inurl:chap-secrets -cvs
 filetype:ini inurl:flashFXP.ini
+site:*.atlassian.net
+site:libraries.io
+site:npm.runkit.com “Company Name”
 filetype:mdb wwforum
 "Powered By Elite Forum Version *.*"
 "index of/"" ""ws_ftp.ini"" ""parent directory
@@ -731,6 +733,7 @@ filetype:dat wand.dat
 filetype:ini ws_ftp pwd
 filetype:inc dbconn
 signin filetype:url
+
 "inurl:""slapd.conf"" intext:""credentials"" -manpage -""Manual Page"" -man: -sample
 "inurl:""slapd.conf"" intext:""rootpw"" -manpage -""Manual Page"" -man: -sample"
 "inurl:""wvdial.conf"" intext:""password
@@ -763,8 +766,30 @@ intitle:index.of people.lst
 "intitle:""Index of"" spwd.db passwd -pam.conf
 intitle:index.of config.php
 "intitle:""Index of..etc"" passwd"
+site:coggle.it “Company Name” 
+site: "target.com" "php"
+Intitle:index.of api
+site: "target.com" ext:php
+site:target.com "php"
+site:target.com ext:php
+target.com filetype:WSDL
+site:target.com filetype:wsdl
+site:target.com ext:svc inurl:wsdl
+site:target.com filetype:wdsl wdsl
+site:target.com filetype:?wsdl
+site:target.com inurl:asmx?wsdl
+site:target.com inurl:jws?wsdl
+site:target.com inurl:_vti_bin/sites.asmx?wsdl | intitle:_vtl_bin/sites.asmx?wsdl
+site:target.com filetype:php
+site:target.com filetype:aspx
+site:target.com filetype:swf
+site:target.com intext:"index of /"
+site:target.com filetype:txt
+site:target.com filetype:php.txt
+site:target.com ext:txt
+"site:target.com inurl:%2F" 
+"site:target.com inurl:%3a"
 intitle:"Index of" htpasswd	
-intitle:"Index of" pwd.db
 site:rentry.co intext:"password"	
 site:pastebin.com "admin password"
 site:controlc.com intext:"password"	
