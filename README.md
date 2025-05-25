@@ -1,2 +1,2 @@
 # weak-passwd-google-dork
-Few google dorks to find exposed passwords
+A collection list of weak password google dorks
